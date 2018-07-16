@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="main.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<p></p>
+ <pre>
+ _______  _______  _______  _     _ 
+|       ||       ||       || | _ | |
+|    ___||  _____||____   || || || |
+|   | __ | |_____  ____|  ||       |
+|   ||  ||_____  || ______||       |
+|   |_| | _____| || |_____ |   _   |
+|_______||_______||_______||__| |__|
+</pre>
+	<p>welcome to GS2W team website - type "help" for a list of commands</p>
+	<div class="terminal_line">
+		:~$ &nbsp; 
+		<form name="terminal" action="#" method="post" onsubmit="return process()">
+			<input type="text" class="command">
+		</form>
+	</div>
+	<div id="output"></div>
+	<script>
+		$(".command").focus();
+	</script>
+</body>
+</html>

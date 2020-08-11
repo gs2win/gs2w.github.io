@@ -80,6 +80,12 @@ function process_cd(directory) {
 				$("#output").append("<p><a href='mailto:contact@gs2w.org'>email</a></p>");
 				append_input();
 				return false;
+			case "repository":
+				current_dir = "repository";
+				$("#output").append("<p><a href='https://github.com/gs2win'>https://github.com/gs2win</a></p>");
+				$("#output").append("<p>type 'cd ..' to return</p>");
+				append_input();
+				return false;
 			default: 
 				$("#output").append("<p>no such file or directory</p>");
 				append_input();
